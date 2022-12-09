@@ -1,9 +1,14 @@
 {
   "laptops": [
     {
-      "id": "1",
-      "modelName": "json-server",
-      "price": "typicode"
+      "id": "1931979d-60ca-4292-8336-0cbda9c31626",
+      "modelName": "ako",
+      "price": "123"
+    },
+    {
+      "id": "af638bb9-7d5f-44a1-ad73-e932cc7acbb4",
+      "modelName": "asdf",
+      "price": "sadf1243"
     }
   ]
 }
