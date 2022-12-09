@@ -1,0 +1,9 @@
+{
+  "laptops": [
+    {
+      "id": "1",
+      "modelName": "json-server",
+      "price": "typicode"
+    }
+  ]
+}

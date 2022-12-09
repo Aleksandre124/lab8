@@ -1,0 +1,10 @@
+<h2>Laptops</h2>
+<div class="table">
+    <form [formGroup]="editForm">
+        <div *ngFor="let laptop of laptops" class="row">
+            <div class="cell">
+                <span>{{ laptop.id }}</span>
+            </div>
+        </div>
+    </form>
+</div>
