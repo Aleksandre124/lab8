@@ -15,6 +15,7 @@ export class LaptopManagmentComponent implements OnInit {
     modelName: new FormControl('', Validators.required),
     price: new FormControl('', Validators.required)
   });
+  //sadfsad
 
 
   constructor() { }
