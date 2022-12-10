@@ -11,3 +11,15 @@ html{
     animation: animate 3s ease alternate infinite;
     background-size: 300% 300%;
 }
+
+@keyframes animate {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%; 
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

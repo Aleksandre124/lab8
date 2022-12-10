@@ -8,7 +8,7 @@
                     <label>Laptop model </label>
                 </div>
                 <div class="input">
-                    <input formControlName="price" type="text" required />
+                    <input formControlName="price" type="number" required />
                     <label>Laptop price </label>
                 </div>
                 <div class="save">
@@ -46,11 +46,11 @@
                     <div class="cell">
                         <span class="m">Model: </span>
                         <span *ngIf="editingLaptop?.id != laptop.id"> {{ laptop.modelName }} </span>
-                        <input *ngIf="editingLaptop?.id == laptop.id" formControlName="modelName" placeholder="Model name">
+                        <input *ngIf="editingLaptop?.id == laptop.id" formControlName="modelName" placeholder="Model name" >
                         <br>
                         <span class="p">Price: </span>
-                        <span *ngIf="editingLaptop?.id != laptop.id">{{ laptop.price }}</span>
-                        <input *ngIf="editingLaptop?.id == laptop.id" formControlName="price" placeholder="Price">
+                        <span *ngIf="editingLaptop?.id != laptop.id">{{ laptop.price }}₾</span>
+                        <input *ngIf="editingLaptop?.id == laptop.id" formControlName="price" placeholder="Price" type="number">
                     </div>
                     <div class="buttons">
                         <button (click)="editLaptop(laptop)" *ngIf="editingLaptop?.id != laptop.id">Edit</button>

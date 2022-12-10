@@ -1,55 +1,476 @@
-.add_search{
-    border-radius: 20px;
-    box-shadow: 16px 14px 20px #0000008c;
-    width: 45%;
-    margin: 20px auto 20px auto;
-    background-color: rgb(24, 209, 194);
-    position: relative;
-    display: flex;
+@media (max-width: 340px) {
+    .add_search{
+        border-radius: 20px;
+        box-shadow: 16px 14px 20px #0000008c;
+        width: 90%;
+        margin: 20px auto 20px auto;
+        background-color: rgb(24, 209, 194);
+        padding: 5px;
+    }
+
+    #addLaptop{
+        width: 40%;
+        margin: 20px auto 20px auto;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    #quick_search{
+        width: 150%;
+        margin: 20px -30px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .quick_search{
+        width: 25%;
+        margin: 0 auto 0 auto;
+    }
+
+    .quick_search input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+        margin-top: 18px;
+        margin-left: -45px;
+        width: 235%;
+    }
+
+    .quick_search label{
+        position: absolute;
+        top: 340px;
+        left: 25%;
+        pointer-events: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .search_result {
+        border-radius: 10px;
+        margin: 4px -90%;
+        padding: 10px;
+        width: 150px;
+        height: 90px;
+        overflow-x: hidden;
+        text-align: justify;
+    }
+
+    .laptop{
+        width: 90%;
+        margin:  auto;
+        display: grid;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 20px;
+        background-color: rgb(24, 209, 194);
+    }
+
+    .buttons button{
+        background-color: green;
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+        margin: 1px;
+        border-radius: 20px;
+    }
+
+    .cell input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 12px;
+        transition: 0.3s;
+    }
+
+    .table{
+        border-radius: 10px;
+        margin: 10px 11px;
+        padding: 4px;
+        width: 95%;
+        font-size: 15px;
+       
+    }
+
+    .input {
+        padding: 20px 10px 20px 10px;
+        width: 50%;
+        margin: auto 15%;
+        display: grid;
+        position: relative;
+    }
+
+    .input input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 12px;
+        transition: 0.3s;
+    }
+
+    .save {
+        padding: 10px;
+        width: 25%;
+        margin: auto;
+    }
 }
 
+@media (min-width: 340px) and (max-width: 500px) {
+    .add_search{
+        border-radius: 20px;
+        box-shadow: 16px 14px 20px #0000008c;
+        width: 90%;
+        margin: 20px auto 20px auto;
+        background-color: rgb(24, 209, 194);
+        padding: 5px;
+    }
 
-@keyframes animate {
-    0%{
-        background-position: 0% 50%;
+    #addLaptop{
+        width: 40%;
+        margin: 20px auto 20px auto;
+        padding-top: 10px;
     }
-    50%{
-        background-position: 100% 50%; 
+
+    #quick_search{
+        width: 150%;
+        margin: 20px -30px;
+        padding-top: 10px;
+        font-size: 20px;
     }
-    100%{
-        background-position: 0% 50%;
+
+    .quick_search{
+        width: 25%;
+        margin: 0 auto 0 auto;
+    }
+
+    .quick_search input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+        margin-top: 18px;
+        margin-left: -45px;
+    }
+
+    .quick_search label{
+        position: absolute;
+        top: 365px;
+        left: 30%;
+        pointer-events: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .search_result {
+        border-radius: 10px;
+        margin: 4px -60%;
+        padding: 10px;
+        width: 200px;
+        height: 90px;
+        overflow-x: hidden;
+        text-align: justify;
+    }
+
+    .laptop{
+        width: 90%;
+        margin:  auto;
+        display: grid;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 20px;
+        background-color: rgb(24, 209, 194);
+    }
+
+    .buttons button{
+        background-color: green;
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+        margin: 1px;
+        border-radius: 20px;
+    }
+
+    .cell input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 12px;
+        transition: 0.3s;
+    }
+
+    .table{
+        border-radius: 10px;
+        margin: 10px 11px;
+        padding: 4px;
+        width: 95%;
+        font-size: 15px;
+       
+    }
+
+    .input {
+        padding: 20px 10px 20px 10px;
+        width: 50%;
+        margin: auto;
+        display: grid;
+        position: relative;
+    }
+
+    .input input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .save {
+        padding: 10px;
+        width: 25%;
+        margin: auto;
     }
 }
 
-.cell input{
-    border: none;
-    background-color: rgb(24, 209, 194);
-    border-bottom: 2px solid gray;
-    outline: none;
-    font-size: 16px;
-    transition: 0.3s;
+@media (min-width: 500px) and (max-width: 1200px) {
+    .add_search{
+        border-radius: 20px;
+        box-shadow: 16px 14px 20px #0000008c;
+        width: 90%;
+        margin: 20px auto 20px auto;
+        background-color: rgb(24, 209, 194);
+        padding: 5px;
+    }
+
+    #addLaptop{
+        width: 40%;
+        margin: 20px 16% 20px auto;
+        padding-top: 10px;
+    }
+
+    #quick_search{
+        width: 150%;
+        margin: 20px 20%;
+        padding-top: 10px;
+    }
+
+    .quick_search{
+        width: 25%;
+        margin: 0 auto 0 auto;
+    }
+
+    .quick_search input{
+        border: none;
+        width: 200%;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+        margin-top: 18px;
+        margin-left: -50%;
+    }
+
+    .quick_search label{
+        position: absolute;
+        top: 365px;
+        left: 30%;
+        pointer-events: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .search_result {
+        border-radius: 10px;
+        margin: 4px -50%;
+        padding: 10px;
+        width: 200%;
+        height: 90px;
+        overflow-x: hidden;
+        text-align: justify;
+    }
+
+    .laptop{
+        width: 90%;
+        margin:  auto;
+        display: grid;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 20px;
+        background-color: rgb(24, 209, 194);
+    }
+
+    .buttons button{
+        background-color: green;
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+        margin: 1px;
+        border-radius: 20px;
+    }
+
+    .cell input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .table{
+        border-radius: 10px;
+        margin: 10px 11px;
+        padding: 4px;
+        width: 95%;
+        font-size: 20px;
+       
+    }
+
+    .input {
+        padding: 20px 10px 20px 10px;
+        width: 50%;
+        margin: auto;
+        display: grid;
+        position: relative;
+    }
+
+    .input input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .save {
+        padding: 10px;
+        width: 25%;
+        margin: auto 43%;
+    }
 }
 
-.buttons button{
-    background-color: green;
-    font-size: 20px;
-    padding: 0 20px 0 20px;
-    margin: 1px;
-    border-radius: 20px;
+@media (min-width: 1200px) {
+    .add_search{
+        border-radius: 20px;
+        box-shadow: 16px 14px 20px #0000008c;
+        width: 45%;
+        margin: 20px auto 20px auto;
+        background-color: rgb(24, 209, 194);
+        position: relative;
+        display: flex;
+    }
+
+    #addLaptop{
+        width: 60%;
+        margin: 20px auto 20px auto;
+        padding-top: 10px;
+    }
+
+    #quick_search{
+        width: 100%;
+        margin: 20px auto 20px auto;
+        padding-top: 10px;
+    }
+
+    .quick_search{
+        width: 25%;
+        margin: 0 auto 0 auto;
+    }
+
+    .quick_search input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+        margin-top: 18px;
+    }
+
+    .quick_search label{
+        position: absolute;
+        bottom: 55%;
+        left: 56%;
+        pointer-events: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .search_result {
+        border-radius: 10px;
+        margin: 4px 4px;
+        padding: 4px;
+        width: 200px;
+        height: 90px;
+        overflow-x: hidden;
+        text-align: justify;
+    }
+
+    .laptop{
+        width: 45%;
+        margin:  auto;
+        display: grid;
+        border-radius: 20px;
+        box-shadow: 16px 14px 20px #0000008c;
+        background-color: rgb(24, 209, 194);
+    }
+
+    .buttons button{
+        background-color: green;
+        font-size: 20px;
+        padding: 0 20px 0 20px;
+        margin: 1px;
+        border-radius: 20px;
+    }
+
+    .cell input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .table{
+        border-radius: 10px;
+        margin: 10px 11px;
+        padding: 4px;
+        width: 95%;
+        font-size: 20px;
+       
+    }
+
+    .input {
+        padding: 20px 10px 20px 10px;
+        width: 50%;
+        margin: auto;
+        display: grid;
+        position: relative;
+    }
+
+    .input input{
+        border: none;
+        background-color: rgb(24, 209, 194);
+        border-bottom: 2px solid gray;
+        outline: none;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .save {
+        padding: 10px;
+        width: 25%;
+        margin: auto;
+    }
 }
 
 .buttons button:hover{
     cursor: pointer;
     transform: scale(1.25);
     color: crimson;
-}
-
-.laptop{
-    width: 45%;
-    margin:  auto;
-    display: grid;
-    border-radius: 20px;
-    background-color: rgb(24, 209, 194);
 }
 
 #laptop{
@@ -70,64 +491,12 @@
     padding: 10px;
 }
 
-/* ////////////////////////////////////////
-///////////////////////////////////////////
-///////////////////////////////////////////
-/////////////////////////////////////////// */
-
-/* Laptop List */
-
-.table{
-    border-radius: 10px;
-    margin: 10px 11px;
-    padding: 4px;
-    width: 95%;
-    font-size: 20px;
-   
-}
-
-
-/* Laptop List */
-
-
-/* //////////////////////////////////////////////////
-/////////////////////////////////////////////////////
-/////////////////////////////////////////////////////
-///////////////////////////////////////////////////// */
-
 /* Search */
 
-#quick_search{
-    width: 100%;
-    margin: 20px auto 20px auto;
-    padding-top: 10px;
-}
-
-.quick_search{
-    width: 25%;
-    margin: 0 auto 0 auto;
-}
-.quick_search input{
-    border: none;
-    background-color: rgb(24, 209, 194);
-    border-bottom: 2px solid gray;
-    outline: none;
-    font-size: 16px;
-    transition: 0.3s;
-    margin-top: 18px;
-}
 .quick_search input:focus{
     border-color: crimson;
 }
 
-.quick_search label{
-    position: absolute;
-    bottom: 55%;
-    left: 56%;
-    pointer-events: none;
-    font-size: 16px;
-    transition: 0.3s;
-}
 
 .quick_search input:focus ~ label,
 .quick_search input:valid ~ label{
@@ -142,29 +511,6 @@
 ///////////////////////////////////////// */
 
 /* Input Model Name and Price */
-
-#addLaptop{
-    width: 60%;
-    margin: 20px auto 20px auto;
-    padding-top: 10px;
-}
-
-.input {
-    padding: 20px 10px 20px 10px;
-    width: 50%;
-    margin: auto;
-    display: grid;
-    position: relative;
-}
-
-.input input{
-    border: none;
-    background-color: rgb(24, 209, 194);
-    border-bottom: 2px solid gray;
-    outline: none;
-    font-size: 16px;
-    transition: 0.3s;
-}
 
 .input input:focus{
     border-color: crimson;
@@ -193,12 +539,6 @@
 
 /* Save button */
 
-.save {
-    padding: 10px;
-    width: 25%;
-    margin: auto;
-}
-
 #save {
     background-color: green;
     font-size: 20px;
@@ -219,15 +559,7 @@
 ///////////////////////////////////////////////////// */
 /* Search Result Scrool */
 
-.search_result {
-    border-radius: 10px;
-    margin: 4px 4px;
-    padding: 4px;
-    width: 200px;
-    height: 90px;
-    overflow-x: hidden;
-    text-align: justify;
-}
+
 .search_result::-webkit-scrollbar {
     width: 20px;
 }
