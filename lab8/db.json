@@ -1,14 +1,14 @@
 {
   "laptops": [
     {
-      "id": "1931979d-60ca-4292-8336-0cbda9c31626",
-      "modelName": "ako",
-      "price": "123"
+      "id": "dd1ad1ff-00af-424c-9339-f1827bda83f4",
+      "modelName": "Samsung",
+      "price": "2399$"
     },
     {
-      "id": "af638bb9-7d5f-44a1-ad73-e932cc7acbb4",
-      "modelName": "asdf",
-      "price": "sadf1243"
+      "id": "14ec99ed-c415-4e92-948e-b2fce1dab173",
+      "modelName": "HP",
+      "price": "1599$"
     }
   ]
 }

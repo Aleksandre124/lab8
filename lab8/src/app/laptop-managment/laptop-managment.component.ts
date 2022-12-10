@@ -11,9 +11,13 @@ import { debounceTime, switchMap } from 'rxjs/operators';
 })
 export class LaptopManagmentComponent implements OnInit {
 
+  
+
   public laptops: Laptop[] = [];
 
   public editingLaptop?: Laptop;
+
+ 
 
   addForm = new FormGroup({
     modelName: new FormControl('', Validators.required),
